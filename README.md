@@ -3,7 +3,7 @@
 A modern, responsive portfolio showcasing full‑stack (MERN) and cloud work. It highlights my projects, skills, certifications, and includes a contact form that can deliver real messages. Built for performance and clarity with React, Vite, Tailwind CSS, and Framer Motion.
 
 ### Live Site
-- Deployed on Vercel (recommended).
+- Deployed on Vercel (iancliff-portfolio.vercel.app).
 
 ### Features
 - Responsive, accessible UI with dark/light theme
