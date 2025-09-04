@@ -22,46 +22,6 @@ A modern, responsive portfolio showcasing full‑stack (MERN) and cloud work. It
 
 ---
 
-## Getting Started
-
-### Prerequisites
-- Node.js LTS (v18+ recommended)
-- pnpm or npm
-
-### Install
-```bash
-# with pnpm (recommended)
-pnpm install
-
-# or with npm
-npm install
-```
-
-### Run Dev Server
-```bash
-pnpm dev
-# or
-npm run dev
-```
-Open `http://localhost:5173`.
-
-### Build
-```bash
-pnpm build
-# or
-npm run build
-```
-Output is written to `dist/`.
-
-### Preview Production Build
-```bash
-pnpm preview
-# or
-npm run preview
-```
-
----
-
 ## Project Structure
 ```
 src/
@@ -118,24 +78,6 @@ src/
 The contact form opens the user’s mail client prefilled to `iancliff15@gmail.com`, so messages reach me directly without any extra configuration.
 
 ---
-
-
-## Scripts
-```json
-{
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "lint": "eslint ."
-}
-```
-
----
-
-## Performance & UX Notes
-- Images use `loading="lazy"` and `decoding="async"`.
-- Sections use `content-visibility: auto` with intrinsic sizes to defer offscreen work.
-- Animation durations favor smooth, snappy UI without jank.
 
 ## A Note from Ian
 Thank you for visiting my portfolio. This site reflects my journey—learning in public, building with care, and staying curious. If something here sparks an idea or you’d like to collaborate, I’d love to hear from you.
