@@ -371,13 +371,6 @@ export const SOCIAL_LINKS = [
       color: "hover:text-blue-400",
       bgColor: "hover:bg-blue-500/10",
     },
-    {
-      name: "Email",
-      icon: Mail,
-      url: "mailto:iancliff15@gmail.com",
-      color: "hover:text-green-400",
-      bgColor: "hover:bg-green-500/10",
-    },
   ];
 
   export const CONTACT_INFO = [
