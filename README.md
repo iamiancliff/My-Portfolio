@@ -81,4 +81,4 @@ The contact form opens the user’s mail client prefilled to `iancliff15@gmail.c
 ---
 
 ## A Note from Ian
-Thank you for visiting my portfolio. This site reflects my journey—learning in public, building and staying curious. If something here sparks an idea or you’d like to collaborate, I’d love to hear from you.
+Thank you for visiting my portfolio. This site reflects my journey learning in public, building and staying curious. If something here sparks an idea or you’d like to collaborate, I’d love to hear from you.
