@@ -25,6 +25,7 @@ import PROJECT_IMG_4 from "../assets/images/project-4.png";
 import PROJECT_IMG_5 from "../assets/images/project-5.png";
 import PROJECT_IMG_6 from "../assets/images/project-6.png";
 import PROJECT_IMG_7 from "../assets/images/project-7.png";
+import PROJECT_IMG_8 from "../assets/images/project-8.png";
 
 export const SKILLS_CATEGORY = [
   {
@@ -171,7 +172,7 @@ export const PROJECTS = [
     category: "Web App",
     status: "In Progress",
   },
-{
+  {
     id: 7,
     title: "Visualizing Data using Amazon Quicksight",
     description:
@@ -182,7 +183,20 @@ export const PROJECTS = [
     githubUrl: "https://github.com/iamiancliff",
     featured: false,
     category: "AWS",
-},
+  },
+  {
+    id: 8,
+    title: "AI Invoice Generator",
+    description:
+      "AI Invoice Generator is an intelligent invoicing platform that automates invoice creation, tracking, and payment reminders. It leverages AI to extract customer data, recommend tax-compliant templates, forecast cash flow, and deliver actionable insights so finance teams can focus on strategic work instead of manual paperwork.",
+    image: PROJECT_IMG_8,
+    tags: ["MongoDB", "Express", "React", "NodeJS", "Google Gemini AI"],
+    liveUrl: "https://smartinvoice-generator.vercel.app/",
+    githubUrl: "https://github.com/iamiancliff/AI-Invoice-Generator",
+    featured: true,
+    category: "Full Stack",
+  
+  },
 ];
 
 export const JOURNEY_STEPS = [
