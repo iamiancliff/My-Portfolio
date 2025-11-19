@@ -56,6 +56,7 @@ src/
 - QuizQuest — Interactive quiz site (HTML/CSS/JS)
 - Expense Tracker App — MERN tracker with JWT auth and charts — status: In Progress
 - Visualizing Data using Amazon QuickSight — S3‑sourced dashboards & insights
+- AI Invoice Generator — Full-stack AI-powered invoicing workflow automation
 
 ### Skills & Highlights
 - Frontend: React, Tailwind, Framer Motion
@@ -80,4 +81,4 @@ The contact form opens the user’s mail client prefilled to `iancliff15@gmail.c
 ---
 
 ## A Note from Ian
-Thank you for visiting my portfolio. This site reflects my journey—learning in public, building with care, and staying curious. If something here sparks an idea or you’d like to collaborate, I’d love to hear from you.
+Thank you for visiting my portfolio. This site reflects my journey—learning in public, building and staying curious. If something here sparks an idea or you’d like to collaborate, I’d love to hear from you.
