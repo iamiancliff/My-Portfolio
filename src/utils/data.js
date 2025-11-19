@@ -33,10 +33,10 @@ export const SKILLS_CATEGORY = [
     icon: Code2,
     description: "Crafting beautiful, responsive user interfaces",
     skills: [
-      { name: "React", level: 85, color: "bg-blue-500" },
-      { name: "Next.js", level: 70, color: "bg-indigo-400" },
-      { name: "Tailwind CSS", level: 88, color: "bg-cyan-500" },
-      { name: "Framer Motion", level: 70, color: "bg-pink-500" },
+      { name: "React", level: 75, color: "bg-blue-500" },
+      { name: "Next.js", level: 65, color: "bg-indigo-400" },
+      { name: "Tailwind CSS", level: 80, color: "bg-cyan-500" },
+      { name: "Framer Motion", level: 45, color: "bg-pink-500" },
     ],
   },
   {
@@ -44,10 +44,10 @@ export const SKILLS_CATEGORY = [
     icon: Server,
     description: "Building robust server-side solutions",
     skills: [
-      { name: "Node.js", level: 70, color: "bg-green-500" },
-      { name: "Express.js", level: 85, color: "bg-teal-400" },
-      { name: "Python", level: 80, color: "bg-yellow-500" },
-      { name: "REST APIs", level: 90, color: "bg-orange-500" },
+      { name: "Node.js", level: 60, color: "bg-green-500" },
+      { name: "Express.js", level: 75, color: "bg-teal-400" },
+      { name: "Python", level: 75, color: "bg-yellow-500" },
+      { name: "REST APIs", level: 80, color: "bg-orange-500" },
     ],
   },
   {
@@ -57,8 +57,8 @@ export const SKILLS_CATEGORY = [
     skills: [
       { name: "MongoDB", level: 88, color: "bg-green-600" },
       { name: "MySQL", level: 75, color: "bg-blue-700" },
-      { name: "Firebase", level: 65, color: "bg-yellow-600" },
-      { name: "PostgreSQL", level: 63, color: "bg-red-500" },
+      { name: "Firebase", level: 45, color: "bg-yellow-600" },
+      { name: "PostgreSQL", level: 45, color: "bg-red-500" },
       { name: "Amazon S3", level: 70, color: "bg-orange-500" },
     ],
   },
@@ -67,12 +67,12 @@ export const SKILLS_CATEGORY = [
     icon: Cloud,
     description: "Deploying and scaling applications",
     skills: [
-      { name: "Docker", level: 50, color: "bg-blue-600" },
+      { name: "Docker", level: 45, color: "bg-blue-600" },
       { name: "AWS", level: 78, color: "bg-orange-600" },
       { name: "Vercel", level: 90, color: "bg-gray-400" },
       { name: "Render", level: 80, color: "bg-green-600" },
-      { name: "Git", level: 95, color: "bg-orange-700" },
-      { name: "CI/CD", level: 75, color: "bg-purple-600" },
+      { name: "Git", level: 85, color: "bg-orange-700" },
+      { name: "CI/CD", level: 50, color: "bg-purple-600" },
     ],
   },
 ];
