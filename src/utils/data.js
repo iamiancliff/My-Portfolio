@@ -110,6 +110,19 @@ export const PROJECTS = [
     category: "Full Stack",
   },
   {
+    id: 8,
+    title: "AI Invoice Generator",
+    description:
+      "AI Invoice Generator is an intelligent invoicing platform that automates invoice creation, tracking, and payment reminders. It leverages AI to extract customer data, recommend tax-compliant templates, forecast cash flow, and deliver actionable insights so finance teams can focus on strategic work instead of manual paperwork.",
+    image: PROJECT_IMG_8,
+    tags: ["MongoDB", "Express", "React", "NodeJS", "Google Gemini AI"],
+    liveUrl: "https://smartinvoice-generator.vercel.app/",
+    githubUrl: "https://github.com/iamiancliff/AI-Invoice-Generator",
+    featured: true,
+    category: "Full Stack",
+  
+  },
+  {
     id: 2,
     title: "Hosting a Static Website on Amazon Simple Storage Service(S3)",
     description:
@@ -183,19 +196,6 @@ export const PROJECTS = [
     githubUrl: "https://github.com/iamiancliff",
     featured: false,
     category: "AWS",
-  },
-  {
-    id: 8,
-    title: "AI Invoice Generator",
-    description:
-      "AI Invoice Generator is an intelligent invoicing platform that automates invoice creation, tracking, and payment reminders. It leverages AI to extract customer data, recommend tax-compliant templates, forecast cash flow, and deliver actionable insights so finance teams can focus on strategic work instead of manual paperwork.",
-    image: PROJECT_IMG_8,
-    tags: ["MongoDB", "Express", "React", "NodeJS", "Google Gemini AI"],
-    liveUrl: "https://smartinvoice-generator.vercel.app/",
-    githubUrl: "https://github.com/iamiancliff/AI-Invoice-Generator",
-    featured: true,
-    category: "Full Stack",
-  
   },
 ];
 
