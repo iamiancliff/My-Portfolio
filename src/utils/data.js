@@ -102,7 +102,7 @@ export const PROJECTS = [
     id: 9,
     title: "SmartSeason",
     description:
-      "A full-stack web application designed to help agricultural coordinators and field agents track crop progress across multiple fields during a growing season.",
+      "SmartSeason is a field monitoring platform that enables agricultural coordinators and field agents to track crop progress, submit real-time updates, and manage multiple farms throughout a growing season. It features role-based access control, giving admins full oversight while agents focus on daily reporting.",
     image: PROJECT_IMG_9,
     tags: ["React", "TypeScript", "Node.js", "Express", "Prisma", "PostgreSQL", "Zustand", "Tailwind CSS"],
     liveUrl: "https://smart-season-rho.vercel.app/",
