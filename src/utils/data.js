@@ -26,6 +26,7 @@ import PROJECT_IMG_5 from "../assets/images/project-5.png";
 import PROJECT_IMG_6 from "../assets/images/project-6.png";
 import PROJECT_IMG_7 from "../assets/images/project-7.png";
 import PROJECT_IMG_8 from "../assets/images/project-8.png";
+import PROJECT_IMG_9 from "../assets/images/project-9.png";
 
 export const SKILLS_CATEGORY = [
   {
@@ -98,6 +99,18 @@ export const TECH_STACK = [
 
 export const PROJECTS = [
   {
+    id: 9,
+    title: "SmartSeason",
+    description:
+      "A full-stack web application designed to help agricultural coordinators and field agents track crop progress across multiple fields during a growing season.",
+    image: PROJECT_IMG_9,
+    tags: ["React", "TypeScript", "Node.js", "Express", "Prisma", "PostgreSQL", "Zustand", "Tailwind CSS"],
+    liveUrl: "https://smart-season-rho.vercel.app/",
+    githubUrl: "https://github.com/iamiancliff/SmartSeason",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
     id: 1,
     title: "EdTech Platform",
     description:
@@ -120,7 +133,7 @@ export const PROJECTS = [
     githubUrl: "https://github.com/iamiancliff/AI-Invoice-Generator",
     featured: true,
     category: "Full Stack",
-  
+
   },
   {
     id: 2,
@@ -218,7 +231,7 @@ export const JOURNEY_STEPS = [
     icon: Code2,
     color: "bg-blue-500",
   },
-   {
+  {
     year: "Aug - Oct 2024",
     title: "Professional Foundations",
     company: "ALX Africa.",
@@ -288,7 +301,7 @@ export const CERTIFICATIONS = [
     issuer: "Amazon Web Services",
     year: "2025",
     badgeColor: "bg-yellow-500",
-    verifyUrl: "https://www.credly.com/badges/3260b719-4709-4e65-a10d-f1c44ef31bac/linked_in_profile" ,
+    verifyUrl: "https://www.credly.com/badges/3260b719-4709-4e65-a10d-f1c44ef31bac/linked_in_profile",
   },
   {
     id: 2,
@@ -327,10 +340,10 @@ export const CERTIFICATIONS = [
     title: "Software Development Scholarship",
     issuer: "Power Learn Project",
     year: "2025",
-    badgeColor: "bg-cyan-500",  
+    badgeColor: "bg-cyan-500",
     verifyUrl: "https://www.linkedin.com/in/ianwende/details/certifications/",
   },
-  { 
+  {
     id: 7,
     title: "Introduction to CSS",
     issuer: "SoloLearn ",
@@ -338,15 +351,15 @@ export const CERTIFICATIONS = [
     badgeColor: "bg-yellow-600",
     verifyUrl: "https://www.linkedin.com/in/ianwende/details/certifications/",
   },
-  { 
-    id: 8,  
+  {
+    id: 8,
     title: "Analyzing and Visualizing Data with Microsfoft Excel",
     issuer: "Beyond Data Community - Data Science, AI & Machine Learning",
     year: "2024",
     badgeColor: "bg-green-600",
     verifyUrl: "https://www.linkedin.com/in/ianwende/details/certifications/",
   },
-  { 
+  {
     id: 9,
     title: "Microsoft Learn AI Skills Challenge",
     issuer: "Microsoft",
@@ -357,36 +370,36 @@ export const CERTIFICATIONS = [
 ];
 
 export const SOCIAL_LINKS = [
-    {
-      name: "GitHub",
-      icon: FiGithub,
-      url: "https://github.com/iamiancliff",
-      color: "hover:text-gray-400",
-      bgColor: "hover:bg-gray-800",
-    },
-    {
-      name: "LinkedIn",
-      icon: FiLinkedin,
-      url: "https://linkedin.com/in/ianwende",
-      color: "hover:text-blue-400",
-      bgColor: "hover:bg-blue-500/10",
-    },
-  ];
+  {
+    name: "GitHub",
+    icon: FiGithub,
+    url: "https://github.com/iamiancliff",
+    color: "hover:text-gray-400",
+    bgColor: "hover:bg-gray-800",
+  },
+  {
+    name: "LinkedIn",
+    icon: FiLinkedin,
+    url: "https://linkedin.com/in/ianwende",
+    color: "hover:text-blue-400",
+    bgColor: "hover:bg-blue-500/10",
+  },
+];
 
-  export const CONTACT_INFO = [
-    {
-      icon: MapPin,
-      label: "Location",
-      value: "Nairobi, Kenya",
-    },
-    {
-      icon: Mail,
-      label: "Email",
-      value: "iancliff15@gmail.com",
-    },
-    {
-      icon: Phone,
-      label: "Phone",
-      value: "+254 792 156 702",
-    },
-  ];
+export const CONTACT_INFO = [
+  {
+    icon: MapPin,
+    label: "Location",
+    value: "Nairobi, Kenya",
+  },
+  {
+    icon: Mail,
+    label: "Email",
+    value: "iancliff15@gmail.com",
+  },
+  {
+    icon: Phone,
+    label: "Phone",
+    value: "+254 792 156 702",
+  },
+];
