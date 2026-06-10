@@ -27,6 +27,9 @@ import PROJECT_IMG_6 from "../assets/images/project-6.png";
 import PROJECT_IMG_7 from "../assets/images/project-7.png";
 import PROJECT_IMG_8 from "../assets/images/project-8.png";
 import PROJECT_IMG_9 from "../assets/images/project-9.png";
+import POWERHUB_IMG from "../assets/images/powerhub-home.jpg";
+import TRADEWALL_IMG from "../assets/images/tradewall-home.png";
+import RENTFLOW360_IMG from "../assets/images/rentflow360-home.png";
 
 export const SKILLS_CATEGORY = [
   {
@@ -209,6 +212,51 @@ export const PROJECTS = [
     githubUrl: "https://github.com/iamiancliff",
     featured: false,
     category: "AWS",
+  },
+];
+
+export const CONTRIBUTIONS = [
+  {
+    id: 1,
+    title: "PowerHub",
+    description:
+      "PowerHub is a full-stack video sharing and channel management platform built collaboratively as a team, inspired by YouTube’s design and functionality. Powered by the MERN stack, it delivers smooth video streaming and channel management.",
+    contribution:
+      "I specifically worked on the Watch History page, building both the frontend UI and backend logic to track viewed videos.",
+    image: POWERHUB_IMG,
+    tags: ["MongoDB", "Express", "React", "Node.js", "Tailwind CSS", "Git"],
+    liveUrl: "https://plppowerhub.vercel.app/",
+    githubUrl: "https://github.com/lyula/powerhub-project",
+    featured: true,
+    category: "Full Stack",
+    collaborators: ["Sacred Lyula", "Dennis Amutsa", "Olive Njoroge", "Mercy Ochieng"],
+  },
+  {
+    id: 2,
+    title: "TradeWall",
+    description:
+      "TradeWall is a social network and fintech startup for financial market traders, featuring modernized journaling tools, a verified signal marketplace, copy trading services, and analytics. Built for experienced and aspiring traders to learn, grow, and succeed together.",
+    contribution:
+      "I am part of the core development team building the TradeWall platform, contributing to its frontend and features as the product grows from an early-stage startup toward a scalable trading ecosystem.",
+    image: TRADEWALL_IMG,
+    tags: ["TypeScript", "React", "Node.js", "Cloudinary", "MongoDB", "Fintech", "Tailwind CSS"],
+    liveUrl: "https://www.tradewall.live",
+    featured: true,
+    category: "Fintech",
+    collaborators: ["Sacred Lyula", "Dennis Amutsa", "Mercy Ochieng", "Chacha Lesley"],
+  },
+  {
+    id: 3,
+    title: "RentFlow360",
+    description:
+      "RentFlow360 is a multi-role property management system that helps landlords and property managers track tenants, automate payments, manage maintenance requests, and grow their rental business effortlessly.",
+    contribution:
+      "Contributed to development of role-based dashboards for Property Managers, Tenants, and Vendors. Built and maintained backend APIs to enhance system functionality and performance using Agile practices in a remote team.",
+    image: RENTFLOW360_IMG,
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "ShadCN UI", "Node.js", "Express", "MySQL"],
+    liveUrl: "https://rentflow360.com",
+    featured: true,
+    category: "Full Stack",
   },
 ];
 
